@@ -5,5 +5,5 @@ services:
     routes:
       - name: patient-route
         paths:
-          - /patient
+          - /patients
         strip_path: false
