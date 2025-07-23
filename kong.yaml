@@ -4,6 +4,4 @@ services:
     url: https://patient-service-8h36.onrender.com/patients
     routes:
       - name: patient-route
-        paths:
-          - /patients
         strip_path: false
