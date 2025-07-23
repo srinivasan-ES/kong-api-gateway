@@ -6,3 +6,4 @@ services:
       - name: patient-route
         paths:
           - /patient
+        strip_path: false
