@@ -1,6 +1,6 @@
 FROM kong:3.5
 
-COPY kong.yml /usr/local/kong/declarative/kong.yaml
+COPY kong.yaml /usr/local/kong/declarative/kong.yaml
 
 ENV KONG_DATABASE=off
 ENV KONG_DECLARATIVE_CONFIG=/usr/local/kong/declarative/kong.yaml
