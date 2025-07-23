@@ -1,8 +1,8 @@
 _format_version: "3.0"
 services:
   - name: patient-service
-    url: https://patient-service-8h36.onrender.com
+    url: https://patient-service-8h36.onrender.com/patients/v1
     routes:
       - name: patient-route
         paths:
-          - /patients
+          - /patient
