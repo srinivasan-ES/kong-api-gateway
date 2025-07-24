@@ -1,7 +1,7 @@
 _format_version: "3.0"
 services:
   - name: patient-service
-    url: https://doctor-service-wui3.onrender.com
+    url: https://patient-service-8h36.onrender.com
     routes:
       - name: patient-route
         paths:
