@@ -7,12 +7,3 @@ services:
         paths:
           - /patients
         strip_path: false
-        plugins:
-          - name: jwt
-consumers:
-  - username: hospital-client
-
-jwt_secrets:
-  - consumer: hospital-client
-    key: hospital-auth
-    secret: r2vKwj88InDU9QuOnorfIgAJsLvGd50r
