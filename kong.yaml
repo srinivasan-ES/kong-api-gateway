@@ -15,3 +15,14 @@ services:
         paths:
           - /doctors
         strip_path: false
+plugins:
+  - name: jwt
+    services: patient-service
+
+consumers:
+  - username: hospital-client
+
+jwt_secrets:
+  - consumer: hospital-client
+    key: hospital-auth
+    secret: Sribalaji
