@@ -15,3 +15,7 @@ ENV KONG_ADMIN_LISTEN=off
 EXPOSE 8000 8443 8001 8444
 
 CMD ["kong", "docker-start"]
+
+USER root
+RUN luarocks install kong-oidc
+
