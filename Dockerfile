@@ -1,4 +1,4 @@
-FROM kong:3.5-alpine
+FROM kong:3.5
 
 COPY kong.yaml /usr/local/kong/declarative/kong.yaml
 
