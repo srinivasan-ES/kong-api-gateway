@@ -11,7 +11,7 @@ ENV KONG_ADMIN_ERROR_LOG=/dev/stderr
 
 # Render requires PORT env for web services
 ENV KONG_PROXY_LISTEN=0.0.0.0:${PORT}
-ENV KONG_ADMIN_LISTEN=127.0.0.1:8000  # keep admin only internal
+ENV KONG_ADMIN_LISTEN=127.0.0.1:8000
 ENV KONG_LOG_LEVEL=error
 
 EXPOSE 8001 8443
