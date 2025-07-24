@@ -7,6 +7,8 @@ services:
         paths:
           - /patients
         strip_path: false
+        plugins:
+          - name: jwt
 
   - name: doctor-service
     url: https://doctor-service-wui3.onrender.com
@@ -15,9 +17,8 @@ services:
         paths:
           - /doctors
         strip_path: false
-plugins:
-  - name: jwt
-    services: patient-service
+        plugins:
+          - name: jwt
 
 consumers:
   - username: hospital-client
