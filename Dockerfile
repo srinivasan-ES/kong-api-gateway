@@ -14,5 +14,5 @@ ENV KONG_LOG_LEVEL=error
 ENV KONG_UPSTREAM_READ_TIMEOUT=60000
 ENV KONG_UPSTREAM_CONNECT_TIMEOUT=60000
 ENV KONG_LUA_SSL_TRUSTED_CERTIFICATE=system
-ENV KONG_LUA_PACKAGE_PATH=/usr/local/share/lua/5.1/?.lua;; # reduce plugin usage
+ENV KONG_LUA_PACKAGE_PATH=/usr/local/share/lua/5.1/?.lua
 CMD ["kong", "docker-start"]
