@@ -25,4 +25,4 @@ consumers:
 jwt_secrets:
   - consumer: hospital-client
     key: hospital-auth
-    secret: Sribalaji
+    secret: r2vKwj88InDU9QuOnorfIgAJsLvGd50r
