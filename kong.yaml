@@ -7,13 +7,6 @@ services:
         paths:
           - /patients
         strip_path: false
-        plugins:
-          - name: openid-connect
-            config: 
-              issuer: "https://securetoken.google.com/project-1053886618577"
-              client_id: "project-1053886618577"
-              auth_methods:
-                - bearer
 
   - name: doctor-service
     url: https://doctor-service-wui3.onrender.com
